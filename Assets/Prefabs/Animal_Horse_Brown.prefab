@@ -1622,8 +1622,9 @@ GameObject:
   - component: {fileID: 9126789091890571158}
   - component: {fileID: 665864799454182753}
   - component: {fileID: 5776309258910964627}
-  - component: {fileID: 45826504526099896}
-  - component: {fileID: 7594548966196546737}
+  - component: {fileID: 3577702615850635522}
+  - component: {fileID: 3831478931673501586}
+  - component: {fileID: 5816492542155661097}
   m_Layer: 0
   m_Name: Animal_Horse_Brown
   m_TagString: Untagged
@@ -1650,7 +1651,7 @@ Transform:
   - {fileID: 6114866725535987689}
   - {fileID: 2022070904399770875}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!95 &665864799454182753
 Animator:
@@ -1686,7 +1687,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
---- !u!114 &45826504526099896
+--- !u!114 &3577702615850635522
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1695,12 +1696,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7818335954415790336}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a3775fbea84f51469ea0746ea1e1361, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  topBound: 30
-  lowerBound: -10
---- !u!114 &7594548966196546737
+--- !u!114 &3831478931673501586
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1709,9 +1708,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 7818335954415790336}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408faa0cfa827be4eabd77443aafd163, type: 3}
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &5816492542155661097
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7818335954415790336}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.96, y: 53.16, z: 48.8}
+  m_Center: {x: 0.1, y: 15.14, z: 0}
 --- !u!1 &7981881689339560209
 GameObject:
   m_ObjectHideFlags: 0

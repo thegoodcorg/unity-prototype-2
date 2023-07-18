@@ -1601,9 +1601,9 @@ GameObject:
   - component: {fileID: 2520693473137165459}
   - component: {fileID: 5188610812948650683}
   - component: {fileID: 884372764171960427}
-  - component: {fileID: 3930223052267246117}
   - component: {fileID: 7010763626001158718}
-  - component: {fileID: 2730412304066720498}
+  - component: {fileID: 6645644546926243932}
+  - component: {fileID: 3703580810209970393}
   m_Layer: 0
   m_Name: Animal_Horse_Black
   m_TagString: Untagged
@@ -1630,7 +1630,7 @@ Transform:
   - {fileID: 4279954719603773213}
   - {fileID: 2734318504985520178}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!95 &5188610812948650683
 Animator:
@@ -1666,20 +1666,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
---- !u!114 &3930223052267246117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6813694271804189753}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a3775fbea84f51469ea0746ea1e1361, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  topBound: 30
-  lowerBound: -10
 --- !u!65 &7010763626001158718
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1701,7 +1687,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 20.96, y: 53.16, z: 48.8}
   m_Center: {x: 0.1, y: 15.14, z: 0}
---- !u!114 &2730412304066720498
+--- !u!114 &6645644546926243932
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1710,7 +1696,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 6813694271804189753}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408faa0cfa827be4eabd77443aafd163, type: 3}
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3703580810209970393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6813694271804189753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6837919491168182535

@@ -3559,9 +3559,9 @@ GameObject:
   - component: {fileID: 5974212812336814949}
   - component: {fileID: 218045186198942712}
   - component: {fileID: 792637906562762031}
-  - component: {fileID: 2686686549786302510}
   - component: {fileID: 7480618348919326247}
-  - component: {fileID: 8443937803069542745}
+  - component: {fileID: 7532385411036915099}
+  - component: {fileID: 3303489070078991097}
   m_Layer: 0
   m_Name: Dog_BorderCollie_01
   m_TagString: Untagged
@@ -3619,7 +3619,7 @@ Transform:
   - {fileID: 5491841461786438091}
   - {fileID: 3139353758038840468}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!95 &218045186198942712
 Animator:
@@ -3655,20 +3655,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
---- !u!114 &2686686549786302510
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5080106404883406133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a3775fbea84f51469ea0746ea1e1361, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  topBound: 30
-  lowerBound: -10
 --- !u!65 &7480618348919326247
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3690,7 +3676,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.2, y: 0.55, z: 0.36}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8443937803069542745
+--- !u!114 &7532385411036915099
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3699,7 +3685,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 5080106404883406133}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408faa0cfa827be4eabd77443aafd163, type: 3}
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3303489070078991097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5080106404883406133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &5104653854541917029
